@@ -11,7 +11,7 @@ n/a
 ## Usage
 This application works as a password generator. Select the "generate password" button and answer the following prompts and a generated password matching the criteria the user selected should appear in the text box.
 
-to visit this page visit:
+to visit this page visit: https://jrsevi.github.io/Password-Generator-1/
 
 ![Webpage Screenshot](./assets/Screenshot%20(11).png)
 
