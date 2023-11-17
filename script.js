@@ -17,7 +17,7 @@ function generatePassword() {
     return;
   } else {
     var lowercaseConfirm = confirm("Include lowercase letters?");
-    var uppercaseConfirm = confrim("Include uppercase letters?");
+    var uppercaseConfirm = confirm("Include uppercase letters?");
     var numbersConfirm = confirm("Include numbers?");
     var specialConfirm = confirm("Include special characters?");
     var userchoice = "";
@@ -41,7 +41,7 @@ function generatePassword() {
 
   for (var i = 0; i < passwordLength; i++) {
     var randomCharacters = Math.floor(Math.random() * userchoice.length);
-    password+=userchoice.charAt(randomCharacters);
+    password += userchoice.charAt(randomCharacters);
   }
 
   return password;
